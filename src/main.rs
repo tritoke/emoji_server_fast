@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 use anyhow::{bail, Result};
 use rand::prelude::*;
 use rayon::prelude::*;
