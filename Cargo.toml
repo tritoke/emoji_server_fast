@@ -1,0 +1,22 @@
+[package]
+name = "emoji_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+triple_accel = "0.4"
+rayon = "1.5"
+rand = "0.8"
+
+[profile.fastest]
+inherits = "release"
+lto = true
+codegen-units = 1
+
+[profile.fastest_debug]
+inherits = "release"
+lto = true
+codegen-units = 1
+debug = true
+
