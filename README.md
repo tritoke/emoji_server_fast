@@ -16,3 +16,4 @@ While the challenge server is still up:
 ```sh
 RUSTFLAGS="-C target-cpu=native" cargo run --profile fastest
 ```
+fastest profile seems to save about 3 seconds overall for me, thuogh this is based on just one run.
