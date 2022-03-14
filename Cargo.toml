@@ -1,5 +1,5 @@
 [package]
-name = "emoji_server"
+name = "emoji_server_fast"
 version = "0.1.0"
 edition = "2021"
 
