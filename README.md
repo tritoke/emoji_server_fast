@@ -10,3 +10,9 @@ levenshtein distance of all possible combinations of words
 and it uses [`rayon`](https://docs.rs/rayon/latest/rayon/) to parallelise many expensive operations, such as populating the cache etc.
 
 Overall it can get the flag, on average in less than a minute.
+
+## Running the code
+While the challenge server is still up:
+```sh
+RUSTFLAGS="-C target-cpu=native" cargo run --profile fastest
+```
